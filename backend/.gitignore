@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment variables file
+.env
+
+# Compiled Python files
+*.pyc
+
+# Database
+db.sqlite3
+
+# Dependency directories
+venv/
+env/
+env.bak/
+ENV/
+
+# Compiled Python files
+*.pyc
+
+# macOS
+.DS_Store
+
+# Editor temporary/backup files
+*~
+temp_original_image.png
+temp_original_video.mp4
+temp_original_audio.wav

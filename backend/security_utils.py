@@ -1,9 +1,7 @@
 import math 
 import uuid 
 import cv2 
-import soundfile as sf
-from numba import jit
-from numba import cfunc, float64
+import soundfile as sf 
 
 c1_value = -0.3
 c2_value = 0.3
@@ -37,8 +35,7 @@ def key_func(key):
 
 
 def f(x: float) -> float:
-    return math.fmod(x+1, 2.0) - 1
-
+    return ((x + 1) % 2) - 1
 
 def normalized(value): 
     return value / 256.0
